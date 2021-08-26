@@ -1,0 +1,68 @@
+.progs-background{
+    background-color: #ffffff;
+}
+
+.text-header {
+    color: $primary-color;
+    
+    font-family: $font;
+    font-size: clamp(1rem , 5vw, 1.3rem);
+    font-weight: $font-bold;
+
+    text-transform: uppercase;
+
+    padding: 5rem 0 .8rem 0 ;
+
+    hr {
+        width: 180px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}
+.programs {
+
+    .col-lg-6 {
+        display: flex;
+        align-items: center;
+
+        position: relative;
+
+        margin: 15px 0;
+
+        img {
+            width: 100%;
+            justify-self: center;
+        }
+
+        .column-text {
+            font-family: $font;
+            position: absolute;
+
+            justify-self: start;
+            
+            bottom: 5%;
+            background-color: rgba(255, 255, 255, 0.952);
+            
+            padding: 1rem 1rem;
+            margin: 0 10px;
+            border-radius: 6px;
+
+            width: 80%;
+
+            h3 {
+                font-size: clamp(.7rem , 5vw, 1rem);
+                a {
+                    color: $primary-color;
+                    font-weight: $font-bold;
+                }
+            }
+
+            p {
+                font-size: clamp(.6rem , 5vw, .8rem);
+                margin: 0;
+            }
+                
+        }
+    }
+}
+

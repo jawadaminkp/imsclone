@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://imsciences.edu.pk/wp-content/uploads/2017/10/home-banner1-copy.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+}
+@import "variables";
+@import "navbar";
+@import "carousel";
+@import "programs";
+@import "cards";
+@import "features";
+@import "footer";
+@import "guide";
+@import "tabs";

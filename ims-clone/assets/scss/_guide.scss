@@ -1,0 +1,50 @@
+.guide-background{
+    background-color: white;
+    
+.guide{
+
+    display: flex;
+
+
+    color: $primary-color;
+    width: 100%;
+    min-height: 90px;
+    height: auto;
+
+
+
+
+    h3{
+        font-family: $font;
+        font-weight: $font-bold;
+        font-size: 18px;
+        padding-top: 33px;
+        padding-left: 100px;
+  
+    }
+
+    // .text{
+       
+    // }
+
+    .button{
+        margin-left: 28px;
+        margin-top: 23px;
+        height: 40px;
+        width: 180px;
+        background-color: $color;
+        font: $font;
+        font-weight: $font-bold;
+        border: $color;
+
+        &:hover{
+            background-color: red;
+        }
+        
+
+    }
+
+}
+
+
+}

@@ -1,0 +1,49 @@
+.carousel {
+    font-family: $font;
+    .carousel-inner {
+        .carousel-item {
+            height: clamp(50vh, 100vw, 75vh);
+
+            position: relative;
+
+            img {
+                height: auto;
+                width: 100%;
+
+            }
+            
+            
+            .carousel-text {
+                position: absolute;
+                
+                bottom: 5%;
+                
+                background-color: #000000ad;
+                color: white;
+                
+                width:  50%;
+                min-height: clamp(150px, 50vw, 200px);
+                
+                padding: 1.5rem 2rem;
+
+                font-size: clamp(1rem , 5vw, 1.7rem);
+                font-weight: $font-bold;
+                
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                
+            }
+
+            @media (max-width: 600px) {
+                img {
+                    width: auto;
+                    height: 100%;
+                }
+                .carousel-text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

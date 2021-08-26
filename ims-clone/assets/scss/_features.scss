@@ -1,0 +1,95 @@
+.overlay{
+
+    .contain{
+        margin-right: 140px;
+    }
+
+    padding-top: 50px;
+    position: relative;
+
+    background-color: #00000077;
+    .main-heading{
+        color: white;
+        text-align: center; 
+        font-size: 21px;
+        font-family: $font;
+        font-weight: $font-bold;
+
+        &:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            margin: 0 auto; /* This will center the border. */
+            width: 19%; /* Change this to whatever width you want. */
+            padding-top: 10px; /* This creates some space between the element and the border. */
+            border-bottom: 0.0001em solid white; /* This creates the border. Replace black with whatever color you want. */
+        }
+
+
+    }
+    min-height: 500px;
+    height: auto;
+
+
+}
+
+
+
+.disp{
+    display: flex;
+    
+
+
+    .square{
+        margin:40px;
+        width: 70px;
+        height: 70px;
+        border:solid 2px white;
+        transform: rotate(45deg); /* Equal to rotateZ(45deg) */;
+        border-radius: 4px;
+        position: relative;
+        &:hover{
+            background-color:#2398dbea;
+    }
+
+    .iconstyle{
+        transform: rotate(-45deg);
+        font-size: 20px;
+        color: white;
+        position:absolute;
+        top: 36%;
+        left: 36%;
+    }
+    
+    }
+
+    .content{
+
+        margin-top: 30px;
+
+        
+        flex: 1;
+
+        .heading{
+            color: white;
+            font-size: 15px;
+            // margin-left: 40px;
+            font-family: $font;
+            font-weight: $font-bold;
+            
+        }
+    
+        .para{
+            color: white;
+            font-size: 11px;
+            // margin-left: 40px;
+            font-family: $font;
+            font-weight: 470;
+        }
+    }
+    
+
+
+}
+
+
+
